@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <style>
+            body{
+                background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4FFKsArH-Pku7yI8P88wEraLOPI2-ePaMtg&usqp=CAU');
+            }
+            .right{
+                float:left;
+                cursor: pointer;
+                font-size:15px;
+                padding: 10px 24px;
+            }
+            .right:hover{
+                color: green;
+            }
+            fieldset{
+                background-color:#eeeeee;
+            }
+        </style>
+    </head>
+    <body>
+        <p>
+            <u> <h1 style="text-align: center;">CONTACT US</h1></u>
+        </p><br>
+        <br>
+        <form style=font-size:larger>
+            <fieldset>
+                <legend style="background-color:gray">Welcome:</legend>
+            <fieldset style="text-align:justify;">
+                <label>First Name : </label>
+                <input type="text" name="fname" required autofocus placeholder="First name" width="80%">
+            </fieldset><br>
+            <fieldset style="text-align:justify;">
+                <label>Last Name :</label>
+                <input type="text" name="lname" autofocus placeholder="Last name" width="50%">
+            </fieldset><br>
+            <fieldset style="text-align:justify;">
+                <label>GENDER :</label>
+                <input type="radio" name="gender" value="male">MALE
+                <input type="radio" name="gender" value="female">FEMALE                
+
+            </fieldset><br>
+            <fieldset style="text-align:justify;">
+                <label>D.O.B :</label>
+                <input type="date" name="dob" autofocus required width="50%">
+            </fieldset><br>
+            <fieldset style="text-align:justify;">
+                <label>GITHUB-ID :</label>
+                <input type="url" name="github" autofocus placeholder="github" width="60%">
+            </fieldset><br>
+            <fieldset style="text-align:justify;">
+                <label>E-MAIL:</label>
+                <input type="email" name="mailid" autofocus placeholder="xyz@gmail.com" width="50%">
+            </fieldset><br>
+            <fieldset style="text-align:justify;">
+                <label>MOBILE :</label>
+                <input type="tel" name="mobile number"autofocus required placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                width="50%">
+            </fieldset><br>
+            <fieldset style="text-align:justify;">
+                <label>COMMENTS :</label>
+                <textarea rows="3" cols="50" wrap="hard"autofocus placeholder="Your comments help us to grow." width="50%"></textarea>
+            </fieldset><br>
+            <br>
+            <button name="btn" value="submit" class="right">submit</button>
+            
+            </fieldset>
+            
+        </form>
+    </body>
+</html>
